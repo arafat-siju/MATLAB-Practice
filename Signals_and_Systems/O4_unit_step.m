@@ -1,6 +1,7 @@
-% Unit Step Signal
+clc; 
+clear all;
 
-clc; clear;
+% Unit Step Signal
 
 t = -5:25;
 amp = [zeros(1,5) ones(1,26)];
