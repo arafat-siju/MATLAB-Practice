@@ -11,10 +11,10 @@ figure(1)
 subplot(121)
 plot(x,y,'LineWidth',2)
 title('Connuous Plot')
-xlabel('x'); ylabel('y')
+xlabel('x axis'); ylabel('y axis')
 
 %% Discrete graph
 subplot(122)
 stem(x,y,'LineWidth',2)
 title('Discrete Plot')
-xlabel('x'); ylabel('y')
+xlabel('x axis'); ylabel('y axis')
