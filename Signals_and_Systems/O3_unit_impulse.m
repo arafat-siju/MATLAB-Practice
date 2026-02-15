@@ -6,7 +6,6 @@ t = -3:3;
 amp = [0 0 0 1 0 0 0];
 
 figure(1)
-
 %% Continuous
 subplot(121)
 plot(t,amp,'LineWidth',2)
