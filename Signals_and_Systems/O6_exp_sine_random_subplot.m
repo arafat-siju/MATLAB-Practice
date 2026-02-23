@@ -8,10 +8,15 @@ figure(1)
 a = 2;
 t = -5:0.5:5;
 amp = exp(-a*t) + exp(a*t);
-subplot(111)
+subplot(211)
 plot(t,amp,'LineWidth',2)
 title('Exponential Signal')
 xlabel('Time'); ylabel('Amplitude')
+subplot(212)
+stem(t,amp,'LineWidth',2)
+title('Exponential Signal')
+xlabel('Time'); ylabel('Amplitude')
+
 
 %% Sinusoidal Signal
 figure(2)
