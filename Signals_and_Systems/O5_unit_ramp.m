@@ -11,10 +11,12 @@ subplot(121)
 plot(t,amp,'LineWidth',2)
 axis([-5 10 -0.5 11])
 title('Unit Ramp (Continuous)')
-xlabel('Time'); ylabel('Amplitude')
+xlabel('Time'); 
+ylabel('Amplitude');
 %% discrete
 subplot(122)
 stem(t,amp,'LineWidth',2)
 axis([-5 10 -0.5 11])
 title('Unit Ramp (Discrete)')
-xlabel('Time'); ylabel('Amplitude')
+xlabel('Time');
+ylabel('Amplitude');
