@@ -1,4 +1,4 @@
-clc; clear all;
+clc; clear; close all;
 
 n = -10:1:10;
 x = max(0, 5 - abs(n)); % Triangular signal
