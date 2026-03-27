@@ -1,5 +1,4 @@
-clc;
-clear;
+clc; clear; close all;
 
 % Coefficient matrix
 A = [1 0 0;
