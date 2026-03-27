@@ -1,6 +1,6 @@
 % Fast Fourier Transform (FFT)
 
-clc; clear all;
+clc; clear; close all;
 
 fs = 1000; 
 T = 1/fs;
