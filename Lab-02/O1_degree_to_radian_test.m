@@ -1,5 +1,4 @@
-clc;
-clear;
+clc; clear; close ll;
 
 % Call the function
 phase = O1_my_function(180);
