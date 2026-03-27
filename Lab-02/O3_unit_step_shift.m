@@ -1,3 +1,4 @@
+clc; clear all;
 function y = shift_signal(x,k)
 
 if (k > 0)
@@ -10,10 +11,6 @@ end
 
 end
 
-
-clc;
-clear;
-
 n = -5:1:25;
 x = [zeros(1,5) ones(1,26)];
 
@@ -23,11 +20,11 @@ y = shift_signal(x,k);
 
 figure(1);
 subplot(211)
-stem(n,x);
+stem(n,x, 'LineWidth',1.5);
 title('Original Unit Step Signal');
 grid on
 
 subplot(212)
-stem(n,y)
+stem(n,y, 'LineWidth',1.5)
 title('Shifted Unit Step Signal');
 grid on
