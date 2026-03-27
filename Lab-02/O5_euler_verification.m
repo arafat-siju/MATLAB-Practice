@@ -1,5 +1,4 @@
-clc;
-clear;
+clc; clear; close all;
 
 fs = 1000;
 t = 0:1/fs:1;
