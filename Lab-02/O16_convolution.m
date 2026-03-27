@@ -1,4 +1,4 @@
-clc; clear all;
+clc; clear; close all;
 
 n = 0:20;
 x = double(n >= 0) - double(n >= 6);   % Rectangular pulse input
