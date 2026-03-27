@@ -1,5 +1,4 @@
-clc;
-clear;
+clc; clear; close all;
 
 t = 0:0.01:2*pi;
 
