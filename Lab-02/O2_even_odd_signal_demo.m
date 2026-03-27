@@ -1,5 +1,4 @@
-clc;
-clear;
+clc; clear; close all;
 
 t = linspace(0,10,1000);
 fs = 1;
