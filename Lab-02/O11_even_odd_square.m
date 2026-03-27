@@ -1,5 +1,5 @@
-clc; 
-clear all;
+clc;  clear; close all;
+
 t = linspace(-5, 5, 1000);
 x = double(t >= 0); % Unit step as square-like signal
 
