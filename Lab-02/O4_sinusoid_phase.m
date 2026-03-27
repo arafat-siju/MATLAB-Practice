@@ -1,4 +1,4 @@
-clc;clear;
+clc; clear all;
 
 fs = 1000; % sampling frequency
 f = 2;     % signal frequency
