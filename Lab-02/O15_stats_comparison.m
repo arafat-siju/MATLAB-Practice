@@ -1,4 +1,4 @@
-clc; clear all;
+clc; clear; close all;
 
 fs = 1000;
 f = 2;
