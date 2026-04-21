@@ -10,7 +10,7 @@ for i=1:4;
         sum=sum+(sign*8)/(pi*pi)*sin(2*pi*j*t)/(j^2);
     end
     subplot(2,2,i);
-    plot(t,sum,'r');
+    plot(t,sum,'g');
     title(['Number of Harmonics used:',num2str(M)]);
     hold on
     %ideal case
@@ -19,11 +19,11 @@ for i=1:4;
     y3=linspace(-1,0,N/4);     % Last (1/4)th signal
     y=[y1 y2 y3];
     subplot(2,2,i);
-    plot(t,y,'g','Linewidth',2)
+    plot(t,y,'r','Linewidth',2)
     %error signal
     subplot(2,2,i);
     error=abs(sum-y);
-    plot(t,error,'k');
+    plot(t,error,'b');
     axis([0 1 -1 1]);grid
     legend('Given shape','Fourier representation','Error');
 end
