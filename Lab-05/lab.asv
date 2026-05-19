@@ -1,0 +1,12 @@
+clc
+num=[1 0 0 0]; den=[1 0 -2 ];
+z = tf(num, den, 0.02) %tf ---> transfer function; Sample time Ts = 0.02
+[z, p, k]=tf2zpk(num, den) % finds zeros, poles, and gains of transfer function.
+[r, p, k]=residuez(num, den)
+
+zplane(num, den) % plots the zeros and poles in zplane
+if abs(p)<1
+disp('The System Is Stable.');
+else
+disp('The System Is Unstable.');
+end
